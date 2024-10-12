@@ -5,3 +5,7 @@ data class DataClass(
     var email: String
 )
 
+fun main() {
+    val data = DataClass(1, "Vina@gmail.com")
+    println(data)
+}
