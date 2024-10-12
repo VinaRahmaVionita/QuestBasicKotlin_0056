@@ -24,6 +24,13 @@ fun ContohList(){
     shape.remove("Triangle")
     println(shape)
 
+    println(shape.first())
+    println(shape.last())
+    println(shape.count())
+
+    shape.removeAt(1)
+    println(shape)
+
 
 
 }
