@@ -8,4 +8,8 @@ data class DataClass(
 fun main() {
     val data = DataClass(1, "Vina@gmail.com")
     println(data)
+
+    //fungsi equals
+    val data2 = DataClass(1, "Rahma@gmail.com")
+    println(data == data2) //false
 }
