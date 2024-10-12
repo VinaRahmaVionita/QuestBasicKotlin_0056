@@ -16,4 +16,11 @@ fun ContohList(){
         mutableListOf("Circle","Square","Triangle")
     println(shape)
 
+    //Menambah data ke dalam List Mutable
+    shape.add("Circle")
+    println(shape)
+
+
 }
+
+
