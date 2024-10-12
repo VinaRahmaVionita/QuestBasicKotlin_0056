@@ -90,6 +90,15 @@ fun ContohMap() {
     val shape: MutableMap<String, Int> = mutableMapOf("Circle" to 1, "Square" to 2, "Triangle" to 3)
     println(shape)
 
+    //menambah data dari map mutable
+    shape["Rectangle"] = 4
+    println(shape)
+
+    //menghapus data dari map mutable
+    shape.remove("Circle")
+    println(shape)
+
+
 
 }
 
